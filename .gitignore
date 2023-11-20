@@ -1,0 +1,6 @@
+# Ignore specific folders
+.parcel-cache/
+dist/
+node_modules/
+
+# Ignore specific files
