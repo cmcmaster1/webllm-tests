@@ -191,7 +191,6 @@ class ChatUI {
   }
   
   
-  
 
   public exportChatHistory() {
     const historyBlob = new Blob([JSON.stringify(this.chatHistory, null, 2)], { type: 'application/json' });
